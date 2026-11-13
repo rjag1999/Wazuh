@@ -42,7 +42,8 @@ Host: Lenovo IdeaPad (AMD Ryzen 5000, 14 GB RAM, Windows 11 Home) with VMware Wo
 | 2 | [Wazuh server install + recommendations](docs/02-wazuh-server-install.md) | ✅ Done |
 | 3 | [Windows agent enrollment](docs/03-windows-agent.md) | ✅ Done |
 | 4 | [Dashboard TLS certificate fix](docs/04-dashboard-certificate.md) | ✅ Done |
-| 5 | [File Integrity Monitoring on the Windows Desktop](docs/05-file-integrity-monitoring.md) | ⏳ Next |
+| 5 | [File Integrity Monitoring on the Windows Desktop](FIM/docs/05-file-integrity-monitoring.md) | ✅ Done |
+| 5b | [FIM real-world: hosts file + Run registry key (who-data)](FIM/docs/05b-fim-hosts-registry-whodata.md) | ⏳ In progress |
 | 6 | Sysmon on Windows + agent channel | 📋 Planned |
 | ⚠️ | [**Problems I hit and how I fixed them**](docs/troubleshooting.md) | 📖 |
 | 🛠️ | [Daily operations & useful commands](docs/daily-operations.md) | 📖 |
@@ -52,7 +53,8 @@ Host: Lenovo IdeaPad (AMD Ryzen 5000, 14 GB RAM, Windows 11 Home) with VMware Wo
 ```
 config/config.yml               Node config used by the install assistant
 scripts/fix-dashboard-cert.sh   Reissues the dashboard cert for the lab IP
-docs/                           Step-by-step write-ups
+docs/                           Step-by-step write-ups (base setup)
+FIM/                            File Integrity Monitoring lab (docs + evidence)
 ```
 
 > Secrets (`wazuh-install-files.tar`, passwords, private keys) are **not**
