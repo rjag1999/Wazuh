@@ -1,0 +1,11 @@
+# Secrets - never commit
+wazuh-install-files.tar
+*wazuh-install-files*.tar
+wazuh-passwords.txt
+*.key
+*-key.pem
+*.p12
+*.pfx
+id_*
+*token*
+.env
